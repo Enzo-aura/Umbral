@@ -1,0 +1,5 @@
+Compiled JAR status: NOT COMPILED IN THIS ENVIRONMENT.
+
+Reason: this execution environment provides Java 21, while Minecraft 26.2/Fabric development requires Java 25, and the environment has no Gradle installation or external Maven/network access.
+
+The included Gradle project is configured for Minecraft 26.2, Fabric Loader 0.19.3, Fabric API 0.158.0+26.2, Loom 1.18-SNAPSHOT, and Java 25. Use `gradle build` on a Java 25 machine; the production JAR will be in build/libs/.
